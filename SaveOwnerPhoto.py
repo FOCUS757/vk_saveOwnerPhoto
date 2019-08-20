@@ -86,7 +86,7 @@ def main():
             vk.photos.delete(photo_id = photo_id)
             
         print("Successfully", x)
-        time.sleep(5)
+        time.sleep(60)
         
 if __name__ == '__main__':
     main()
